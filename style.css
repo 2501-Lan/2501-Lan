@@ -1,3 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
-.fa-facebook{ font-size: 30}
+*{margin:0;
+	padding:0}
+header.masthead{postion:relative;  background-size: cover}
+	

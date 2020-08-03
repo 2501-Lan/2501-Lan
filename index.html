@@ -3,9 +3,6 @@
 <head>
 <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Untitled Document</title>
-<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>This is a WebPage using Bootstrap 4</title>
 	<!-- Import Boostrap css, js, font awesome here -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
@@ -17,9 +14,20 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 	<link href="style.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <style>
+		#mybtn{
+	        display: none; position: fixed;
+			right:30px;
+ 			z-index: 150;
+			bottom:30px;
+		    background-color: darkgreen;
+			width: 40px; height: 40px;
+			
+	</style>
 </head>
 
 <body>
+	<button id="mybtn" onClick="topFunction()" tittle="On Top"><i class="fas fa-angle-double-up"></i></button>
 		<div class="jumbotron">
 	  <div class="container-fluid">
 		  <div class="row">
@@ -33,9 +41,9 @@
 			  </div>
 		  </div>
 		  </div>
-	<div class="container-fluid mt-3 mb-5">
+        <div class="container-fluid mt-3 mb-5">
 		<div class="carousel-inner">
-			<div class="carousel-item active">
+			<div class="casel-item active">
 				 <img src="images/trời đêm.jpg" height="600" width="100%">
 			  <div class="carousel-caption">
 		<h2 class="text-center"> Build a landing page for your business or project and generate more leads!
@@ -92,13 +100,13 @@
 				<p>When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively! When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
 				</div>
 					<div class="col-6">
-				<img src="images/bg-showcase-1.jpg" height="405">
+				<img src="images/bg-showcase-1.jpg" height="410">
 				</div>
 				</div>
 				<div class="container-fluid padding">
 		   <div class="row">
 			   <div class="col-6">
-				   <img src="images/bg-showcase-2.jpg" height="405">
+				   <img src="images/bg-showcase-2.jpg" height="410">
 			   </div>
 				   <div class="col-6 p-5 mt-5">
 					   <h3>Updated For Bootstrap 4</h3>
@@ -112,7 +120,7 @@
 				<p>Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!</p>
 				</div>
 					<div class="col-6">
-				<img src="images/bg-showcase-3.jpg" height="405">
+				<img src="images/bg-showcase-3.jpg" height="410">
 				</div>
 				</div>
 					</div>
@@ -201,8 +209,28 @@
 						</div>
 				<p class="text-muted small mb-4 mb-lg-0">&copy; By Nhật Lan/ D1908G1</p>
 				</div>
-			
 			</footer>
+		<script>
+			//Get the button
+var mybutton = document.getElementById("mybtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+		</script>
 	</div>
 	</body>
 </html>
