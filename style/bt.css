@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin: 0 auto;
+	padding: 0 auto}
+.wrapper{
+	width: 1920px;
+	height: 4705px;
+	background: rgba(248,212,76,1.00);
+	margin: 0 auto;
+}
+.container{
+	width: 1368px;
+	margin: 0 auto;
+}
+.header-main{
+	width: 1920px;
+	height: 160px;
+	background: rgba(102,214,49,1.00);
+}
+.logo{
+	width:30%;
+	background: rgba(166,249,220,1.00);
+	height:160px;
+	float: left;
+}
+.menu{
+	width: 70%;
+	height: 160px;
+	background: rgba(245,137,72,1.00);
+	float: right;
+}

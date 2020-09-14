@@ -1,0 +1,285 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin: 0;
+padding: 0;
+box-sizing: border-box}
+body{font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"}
+.header{
+	width: 100%;
+	height: 100px;
+	background: rgba(247,159,161,1.00)
+	}
+.container{
+	width:1140px;
+	margin: 0 auto;
+	height: 80px;
+	
+}
+.logo{
+	width: 300px;
+	float: left;
+
+}
+.logo a{
+	text-decoration: none;
+	font-size: 50px;
+	font-weight: 800;
+	color: darkred;
+	display: block; 
+	line-height: 80px;	
+}
+.contact-info{
+	float: left;
+	width: 790px;
+	height: 80px;
+}
+.contact-info ul {
+	margin: 0;
+    padding: 0;
+	list-style-type: none;
+	}
+.contact-info ul li{
+	display: inline-block;
+	height: 100px;
+	margin-left: 55px;
+	
+}
+
+.icon{
+	float: left;
+	height: 80px;
+	line-height: 80px;
+	width: 35px;
+}
+.text{
+	float: left;
+	height: 80px;
+	color:darkslategrey;
+	
+}
+.text label{
+    width:100px;
+    display: block;
+	font-weight: bold;
+	margin-top: 25px;}
+.contact-info ul li .register{
+	text-decoration: none;
+	color: aliceblue;
+	width: 250px;
+	border-radius: 40px;
+	text-align: center;
+	background-color: brown;
+	display: block;
+	font-size: 16px;
+	height: 40px;
+	line-height: 40px;
+	float: left;
+	margin-top: 20px;
+}
+
+.nav{
+	width: 100%;
+	height: 50px;
+	background-color:rgba(174,43,45,1.00);
+}
+.nav .container{
+	width: 1140px;
+	margin: 0 auto;
+}.nav ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 700px;
+	
+}
+.nav ul li{display: inline-block}
+.nav ul li a{
+	text-decoration: none;
+	height: 50px;
+	display: block;
+	line-height: 50px;
+	color: aliceblue;
+	padding-right: 40px;
+	
+	}
+.nav .form-search{
+	width: 400px;
+	float: right;
+	position: relative;
+}
+.form-search .keyword{
+	width: 90%;
+	border: 1px solid rgba(255,249,249,1.00);height: 40px;
+	font-size: 16px;
+	height: 40px;
+	margin-top: 5px;
+	text-indent: 15px;
+	border-radius: 20px;
+	background-color:transparent;
+}
+.form-search .btn-search{
+	width: 25px;
+	height: 25px;
+	border: none;
+	position: absolute;
+	top:12px;
+	right: 55px;
+	background-color:transparent;
+}
+.form-search{
+	font-size: 26px;
+	color: aliceblue;
+}
+
+.banner{
+	width: 100%;
+	height: 700px;
+	overflow: hidden;
+	position: relative;
+}
+.banner img{
+	width: 100%;
+}
+.feature{
+	width: 100%;
+}
+.feature .container{
+	width:1140px;
+    margin: 0 auto;
+	margin-top: 80px;
+	height: 300px;
+}
+.feature-left{
+	float: left;
+	width:750px;
+}
+.feature-left h2{ 
+	color: brown;}
+.feature-left p{
+	color: darkgreen;
+}
+
+.card{
+	float: left;
+	width:320px;
+	height: 320px;
+	display: block;
+	margin-right: 50px;
+	padding: 20px 30px;
+	margin-bottom: 5px;
+	text-align: center;
+	background-color: rgba(255,226,226,1.00)
+}
+.feature-left p{
+	padding: 30px 15px 30px 0px;
+	}
+
+.feature-left .card h2{
+	margin-top: 65px;
+	color:rgba(126,13,33,1.00);
+}
+.feature-left .card p{
+	color:darkslategray;
+	text-align: center;
+	font-size: 16px;
+}
+.feature-right{
+	float: left;
+	width: 390px;
+	border: 2px solid rgba(131,1,3,1.00);
+}
+.feature-right img{
+	width: 100%;
+	margin-bottom: 5px;
+}
+.feature-right h3{
+	font-size: 18px;
+	color: brown;
+	margin-bottom: 15px;
+	margin-left: 10px;
+	margin-top: 30px;
+}
+.feature-right p{
+	color:darkslategray;
+	text-align: justify;
+	margin-left: 10px;
+}
+.feature-right .contact-us{
+	margin-top: 30px;
+	margin-left: 10px;
+	margin-bottom: 60px;
+	display: block;
+	text-decoration: none;
+	width: 100px;
+	height: 40px;
+	border-radius: 20px;
+	background-color: brown;
+	text-align: center;
+	color: aliceblue;
+	line-height: 40px;
+}
+.bing {width: 100%;
+height: 250px;
+background: rgba(255,152,153,1.00);
+clear: both;
+overflow: hidden;
+position: relative;
+padding: 0;
+margin: 0;}
+.bing img{
+	background-size: cover;
+	width: 100%;
+	position: absolute;
+	display: 5;
+	opacity: 0.3;
+	
+}
+.bing h2{
+	color:aliceblue;
+	position: absolute;
+	margin-top: 110px;
+	margin-left: 490px;
+	display: 9;
+}
+.service{width: 100%}
+.service .container{
+	width: 500px;
+	height: 150px;
+	margin-top: 80px;
+	margin-bottom: 0px;
+}
+.service .container h2{
+	color: brown; 
+text-align: center}
+.service .container p{
+	color:darkgreen;
+text-align: center}
+.source-img{
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+.source-img img{
+	width: 200px;
+	height: 200px;
+	background-size: cover;
+	
+}
+
+.footer{
+	width: 100%;
+	height: 100px;
+	background:rgba(159,36,38,1.00);
+	padding: 0;
+	margin: 0;
+	clear: both;
+}
+.footer p{
+	color: aliceblue;
+	display: block;
+	text-indent: 20px;
+	padding-top: 20px;
+	
+}
+	
