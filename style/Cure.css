@@ -110,7 +110,7 @@ body{font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Conden
 }
 .form-search .keyword{
 	width: 90%;
-	border: 0.5px solid rgba(255,249,249,1.00);height: 40px;
+	border: 1px solid rgba(255,249,249,1.00);height: 40px;
 	font-size: 16px;
 	height: 40px;
 	margin-top: 5px;
